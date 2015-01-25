@@ -1,0 +1,10 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import dk.kyuff.javafx.selectview.SelectableTableView?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="dk.kyuff.javafx.selectview.Controller">
+
+    <SelectableTableView>
+
+    </SelectableTableView>
+
+</VBox>

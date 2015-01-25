@@ -1,5 +1,7 @@
-package dk.kyuff.javafx.selectview;
+package dk.kyuff.javafx.selectview.apps;
 
+import dk.kyuff.javafx.selectview.Person;
+import dk.kyuff.javafx.selectview.SelectableTableView;
 import javafx.application.Application;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
