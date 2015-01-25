@@ -21,7 +21,7 @@ public class FXMLApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        URL resource = getClass().getResource("view.fxml");
+        URL resource = getClass().getResource("/view.fxml");
         System.out.println(resource);
         Parent view = FXMLLoader.load(resource);
 

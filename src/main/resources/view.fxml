@@ -1,10 +1,23 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import dk.kyuff.javafx.selectview.SelectableTableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
 <VBox xmlns:fx="http://javafx.com/fxml" fx:controller="dk.kyuff.javafx.selectview.Controller">
 
-    <SelectableTableView>
-
+    <SelectableTableView fx:id="view">
+        <columns>
+            <TableColumn fx:id="nameColumn" text="Name" prefWidth="100">
+                <cellValueFactory>
+                    <PropertyValueFactory property="name"/>
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="ageColumn" text="Age" prefWidth="100">
+                <cellValueFactory>
+                    <PropertyValueFactory property="age"/>
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
     </SelectableTableView>
 
 </VBox>
